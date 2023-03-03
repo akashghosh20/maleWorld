@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "839852730227",
+    "project_id": "maleworld-3f8c6",
+    "storage_bucket": "maleworld-3f8c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839852730227:android:eccfb243768d99ab8a0706",
+        "android_client_info": {
+          "package_name": "com.example.maleworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839852730227-eq88nfhrkjiu4rhejio6seqlveakhd6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXBPowUUR1YpS9ovth4zlwwWqRumjfqdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839852730227-eq88nfhrkjiu4rhejio6seqlveakhd6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
