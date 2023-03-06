@@ -14,33 +14,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaleWorld"
-        tools:targetApi="31"
-        tools:ignore="ExtraText">
+        tools:ignore="ExtraText"
+        tools:targetApi="31">
+        <activity
+            android:name=".DetailedActivity"
+            android:exported="false" />
         <activity
             android:name=".onBoarddingActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
         </activity>
-
         <activity
             android:name=".RegistrationActivity"
-            android:exported="true">
-
-        </activity>
-
+            android:exported="true"></activity>
         <activity
             android:name=".loginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"/>
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"

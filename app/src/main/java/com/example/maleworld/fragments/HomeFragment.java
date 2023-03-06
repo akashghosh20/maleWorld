@@ -106,7 +106,7 @@ public class HomeFragment extends Fragment {
                                 linearLayout.setVisibility(View.VISIBLE);
                                 progressDialog.dismiss();
 
-                            }   
+                            }
                         } else {
                             Toast.makeText(getActivity(), ""+task.getException(), Toast.LENGTH_SHORT).show();
                         }

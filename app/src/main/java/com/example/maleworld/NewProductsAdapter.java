@@ -1,6 +1,7 @@
 package com.example.maleworld;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,6 +37,15 @@ public class NewProductsAdapter extends RecyclerView.Adapter<NewProductsAdapter.
         Glide.with(context).load(list.get(position).getImg_url()).into(holder.newImg);
         holder.newName.setText(list.get(position).getName());
         holder.newPrice.setText((list.get(position).getPrice()).toString());
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context,DetailedActivity.class);
+                intent.putExtra("detailed",list.get(position)) ;
+                context.startActivity(intent);
+            }
+        });
+
     }
 
     @Override

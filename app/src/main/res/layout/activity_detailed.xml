@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailedActivity">
+
+    <ImageView
+        android:id="@+id/detailed_img"
+        android:layout_width="405dp"
+        android:layout_height="145dp"
+        android:src="@drawable/ic_launcher_background"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="13dp" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        android:id="@+id/cardview">
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+
+        android:id="@+id/buy_now"
+        android:layout_width="189dp"
+        android:layout_height="52dp"
+        android:padding="4dp"
+        android:text="Buy Now"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="681dp"
+
+        />
+
+    <Button
+        android:id="@+id/add_to_cart"
+        android:layout_width="189dp"
+        android:layout_height="52dp"
+        android:padding="4dp"
+        android:text="Add to Cart"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="622dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/add_item"
+        android:layout_width="135dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/plusicon"
+        app:layout_constraintEnd_toStartOf="@+id/dlt_item"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <ImageView
+        android:id="@+id/remove_item"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:src="@drawable/iconminus"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+    <TextView
+        android:id="@+id/detailed_desc"
+        android:layout_width="374dp"
+        android:layout_height="172dp"
+        android:text="am follohdahvhvhjhjvjdfdaghjfddfgkjkjf"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="116dp"
+        android:layout_height="61dp"
+        android:text="4.0"
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <RatingBar
+        android:id="@+id/my_rating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="227dp"
+        android:layout_height="48dp"
+        android:stepSize="0.1"
+        tools:ignore="MissingConstraints,NotSibling,RtlHardcoded"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/detailed_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:fontFamily="@font/amethysta"
+        android:text="Product Name"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <TextView
+        android:layout_width="131dp"
+        android:layout_height="57dp"
+        android:text="price"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <TextView
+        android:id="@+id/detailed_price"
+        android:layout_width="79dp"
+        android:layout_height="48dp"
+        android:text="200"
+        android:textColor="@color/purple_200"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
